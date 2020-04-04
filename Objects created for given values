@@ -1,0 +1,63 @@
+var technicalspecifications [
+dimensions [
+    {
+        overall length : 3500mm,
+        overall width : 1600mm,
+        overall height : 1490mm,
+        wheelbase : 2360mm,
+
+        track width :
+        {
+            front : 1405mm,
+            rear : 1400mm
+        },
+        
+        minimum turning radius : 4.5m,
+        minimum ground clearance : 170mm
+
+    }
+    ],
+    capacities [
+    {
+       seating capacity : "5persons",
+       fuel tank capacity :"35 litres"
+    }
+
+    ],
+    Engine [
+    {
+       type : "kb-series",
+       Number of cylinders : 3,
+       Number of valves : 12,
+       capacity : "998 cc/cm^3"
+       bore x stroke : "73.0 x 79.5mm"
+       compression ratio : "10:1",
+       maiximum power : "67/6.200PS/rpm",
+       maiximum torque : "90/3.500Nm/rpm",
+       fuel injection : "multipoint injection"
+    }
+    ],
+    transmission [
+    {
+        type : "5-speed MT"
+
+    }],
+    chassis [
+    {
+        steering : "Rack and Pinion piston assisted",
+        brakes : {
+            front : "ventilated disks",
+            rear : "drums"
+        },
+        suspension : {
+            front : "macpherson strut and coil spring",
+            rear : "isolated trailing link and coil spring"
+        },
+        shock absorbers : "gas filled",
+        tyre : "155/80R13"
+    }],
+    weights [
+    kerb weight : "860-880 kg",
+    gross vehicle weight : 1320
+    ]
+]
