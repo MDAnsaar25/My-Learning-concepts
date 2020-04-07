@@ -51,4 +51,4 @@ result = (Math.round(Math.random() * 10));
 console.log(result); 
 return result;
 } 
-sumTwoNumbers(3, generateRandomNumber())
+sumofNumbers(3, generateRandomNumber())
